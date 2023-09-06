@@ -1,0 +1,47 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px  90px  0px  150px;
+
+}
+.skills__title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+}
+.skills__box{
+    width: 176px;
+    height: 160px;
+    padding: 8px 8px 16px 18px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 20px;
+
+}
+.skills__box ul{
+    padding: 0;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 0.09;
+}
+
+.skills__box li{
+    font-weight: bold;
+}
+
+.skills__img img {
+    width: 50%;
+    max-width: 40px; /* Opcional: puedes establecer un ancho máximo para evitar que las imágenes se hagan demasiado grandes en pantallas muy grandes */
+  }
+  

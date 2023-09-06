@@ -1,0 +1,14 @@
+.footer__rodape{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer__rodape p{
+    margin-bottom: 4px;
+    margin-top: 6px;
+}
+#footer__fecha{
+    margin-top: 0;
+    margin-bottom: 30px;
+}

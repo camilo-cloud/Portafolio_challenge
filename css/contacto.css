@@ -1,0 +1,121 @@
+.formcontato{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0px  90px  0px  150px;
+    margin-top: 70px;
+    margin-bottom: 2rem;
+    background-color: #EAF2FD;
+    
+}
+
+.formcontato__contacto{
+    margin: 80px 0 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formcontato--esquerda{
+    margin-right: 30px;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__title{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.formcontato__subtext{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.formcontato__form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formcontato__input{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid darkblue;
+    width: 100%;
+    height: 3.55rem;
+    padding: 1.375rem 0.5rem 0.5rem;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    gap: 4px;
+    font-size: 20px;
+    
+
+}
+.formcontato__input::placeholder{
+    font-size: 20px;
+  color: darkblue;
+  transition: all 0.2s;
+  
+}
+
+
+.formcontato__input:focus {
+    outline: none;
+    
+} 
+
+.formcontato__input:focus::placeholder{
+    font-size: 14px; /* Cambia el tamaño de la fuente del placeholder cuando está enfocado */
+    color: darkblue; /* Cambia el color del texto del placeholder a azul */
+    transform: translateY(-100%);
+    position: absolute; /* Cambiado para posicionar el texto del marcador de posición */
+    top: 1.375rem; /* Ajusta la posición vertical del marcador de posición */
+    left: 0.5rem; 
+}
+
+.formcontato__textarea{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid darkblue;
+    font-size: 16px;
+}
+
+.formcontato__textarea:focus{
+    outline: none;
+}
+
+.formcontato__botao{
+    position: relative;
+    margin-top: 30px;
+    border: none;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    width: 160px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-left: 0;
+}
+
+
+.formcontato__botao:hover {
+    transform: scale(1.1);
+    font-size: 20px;
+  }
+
+#nombre-error {
+    color: red;
+}
+
+.error-message {
+    color: red;
+    display: none; /* Para ocultar el mensaje de error inicialmente */
+}

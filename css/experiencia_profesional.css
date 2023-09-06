@@ -1,0 +1,79 @@
+.experience{
+    padding: 5px  90px  0px  150px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.experience__section__title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.experience__box{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.experience__img{
+    width: 65%;
+}
+
+.experience__info-container{
+    margin-right: 3rem;
+    padding-right: 70px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.experience__info-container h2{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experience__text{
+    margin-top: 10px;
+    font-weight: 200;
+}
+.experience__description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experiencia__botao--repo{ 
+    border: 2px solid blue;
+    background-color: none;
+    color: #2A7AE4;
+    width: 160px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.experiencia__botao--repo:hover {
+    transform: scale(1.1);
+    font-size: 20px;
+}
+
+.experience__botao--demo{ 
+    border: none;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    width: 160px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.experience__botao--demo:hover {
+    transform: scale(1.1);
+    font-size: 20px;
+  }
+
+  
